@@ -1,0 +1,33 @@
+body {
+  color: white;
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+.controls {
+  position: absolute;
+  top: 50px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+#canvas {
+  position: absolute;
+  border: 3px solid white;
+  width: 100%;
+  height: 100%;
+
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border: 1px solid black;
+}
+p {
+  position: absolute;
+  bottom: 1%;
+}
+input {
+  z-index: 100;
+}
